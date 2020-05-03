@@ -12,3 +12,5 @@ https://JohnNielsen1221.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by John Nielsen
+
+### ©2019 Run Buddy, Inc
