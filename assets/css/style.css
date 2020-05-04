@@ -10,6 +10,28 @@ body {
 section {
     padding: 60px;
 }
+/* Utility Classes Section*/
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom:3px solid;
+}
+.primary-border {
+    border-color: #fce138;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/* Utility Classes End */
 /* Header */
 header{
     padding: 20px 35px;
@@ -45,46 +67,35 @@ header nav ul li a {
 }
 /* Header End*/
 
-/* Utility Classes Section*/
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom:3px solid;
-}
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
-}
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
-/* Utility Classes End */
-
 /* Hero Style */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138
 }
 .hero-form {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 .hero-form h3 {
     font-size: 24px;
